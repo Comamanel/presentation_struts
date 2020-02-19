@@ -1,4 +1,4 @@
-be\ucm\helloworld\actions\HelloWorldAction.class
-be\ucm\register\actions\RegisterAction.class
 be\ucm\register\models\Person.class
+be\ucm\register\actions\Register.class
+be\ucm\helloworld\actions\HelloWorldAction.class
 be\ucm\helloworld\models\MessageStore.class

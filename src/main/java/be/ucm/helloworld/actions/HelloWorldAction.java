@@ -1,9 +1,12 @@
 package be.ucm.helloworld.actions;
 
 import be.ucm.helloworld.models.MessageStore;
+import com.opensymphony.xwork2.ActionSupport;
+
 import static com.opensymphony.xwork2.Action.SUCCESS;
 
-public class HelloWorldAction {
+public class HelloWorldAction extends ActionSupport {
+    private static final long serialVersionUID = 1L;
     private MessageStore messageStore;
     private static int helloCount = 0;
     private String userName;

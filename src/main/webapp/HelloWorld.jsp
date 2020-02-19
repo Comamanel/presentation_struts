@@ -7,9 +7,10 @@
     <title>Hello World!</title>
 </head>
 <body>
-<h2><s:property value="messageStore.message" /></h2>
-<p>I've said hello <s:property value="helloCount" /> times!</p>
-<p><s:property value="messageStore" /></p>
-<s:property value="userName"/>
+    <h1><s:text name="greeting" /></h1>
+    <h2><s:property value="messageStore.message" /></h2>
+    <p>I've said hello <s:property value="helloCount" /> times!</p>
+    <p><s:property value="messageStore" /></p>
+    <s:property value="userName"/>
 </body>
 </html>
